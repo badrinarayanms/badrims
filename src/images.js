@@ -1,0 +1,1 @@
+import smily from './assets/smile.png'

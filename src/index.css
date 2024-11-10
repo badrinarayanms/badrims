@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: "Posterman";
+    src: url(../public/posterman/Posterman.otf);
+  }
+  @font-face { 
+    font-family: "coolvetica";
+    src: url(../public/coolvectica/coolvetica.otf);
+  }
+  body{
+    background-color: #1D1D1D;
+  }
+  .bg{
+    position: absolute;
+    height: 100vh;
+    background-image: url('./assets/bg.png');
+  background-repeat: no-repeat; 
+        
+  background-position: center;  
+  width: 100%;
+  }
+  .space {
+    display: inline-block;
+    width: 500px; /* Adjust width as needed for the desired space */
+  }
+  

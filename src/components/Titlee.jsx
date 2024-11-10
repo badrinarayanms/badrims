@@ -1,0 +1,110 @@
+import { useRef, useEffect } from 'react';
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
+import { Link } from 'react-router-dom';
+
+const Titlee = () => {
+  const lettersRef = useRef([]);
+
+  useGSAP(() => {
+    
+    const tl = gsap.timeline();
+
+ 
+    const isMobileOrTablet = window.innerWidth <= 425;
+    const delay = isMobileOrTablet ? 2 : 0; 
+    tl.fromTo(
+      lettersRef.current,
+      {
+        opacity: 0,
+        y: 50,
+      },
+      {
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        stagger: 0.1,
+        ease: 'power2.out',
+        delay, 
+      }
+    );
+
+    tl.fromTo(".sidec h1",{
+      opacity: 0,
+      y: 50,
+    },
+    {
+      opacity: 1,
+      y: 0,
+      duration: 0.5,
+      stagger: 0.3,
+      ease: 'power2.out',
+       
+    })
+
+    tl.fromTo(".btn",{
+      opacity: 0,
+      y: 50,
+    },
+    {
+      opacity: 1,
+      y: 0,
+      duration: 0.5,
+      stagger: 0.3,
+      ease: 'power2.out',
+      
+    })
+  }, []);
+
+  const name = "Badri Narayan M S";
+  const nameLetters = name.split('').map((letter, index) => ({
+    letter,
+    key: index,
+  }));
+
+  return (
+    <>
+      <div>
+        <h1 className="p-5 md:p-10 text-[#FF535B] mt-[33em] md:mt-20 xl:mt-36 lg:mt-24 font-coolvetica">
+          <span className="flex  text-4xl md:text-[6em] lg:text-[8em] xl:text-[9em] min-[1440px]:text-[10em] 2xl:text-[14em] min-[2560px]:text-[20em] w-full justify-center items-center ">
+            {nameLetters.map(({ letter, key }) => (
+              <span
+                key={key}
+                ref={(el) => (lettersRef.current[key] = el)}
+                className={`inline-block ${letter === ' ' ? 'p-1 lg:p-4 xl:p-8' : ''}`}
+              >
+                {letter}
+              </span>
+            ))}
+          </span>
+        </h1>
+      </div>
+      <div  className="sidec  flex flex-col justify-center ml-0 items-center mt-0 md:items-end md:mr-20 md:mt-28 xl:mt-16  lg:mr-24 lg:justify-center lg:mt-16 lg:items-end xl:items-end xl:mr-36 xl:justify-center xxl:mt-[200px]">
+        <div className=' flex gap-4  overflow-hidden pb-3 md:mt-12'>
+        <h1 className="text-3xl overflow-hidden  sm:text-5xl text-[#FF535B] md:text-4xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-coolvetica">
+          Frontend
+        </h1>
+        <h1 className="text-3xl sm:text-5xl text-[#ffff] md:text-4xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-coolvetica">
+          Developer
+        </h1>
+        </div>
+        <div className='flex overflow-hidden pb-3 gap-4'>
+        <h1 className="text-3xl sm:text-5xl text-[#FF535B] md:text-4xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-coolvetica">
+          UI/UX
+        </h1>
+        <h1 className="text-3xl sm:text-5xl text-[#ffff] md:text-4xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-coolvetica">
+          Designer
+        </h1>
+        
+        </div>
+        <a href="https://www.linkedin.com/in/badri-narayan-m-s-60bab42a2/"  target="_blank" rel="noopener noreferrer" className="btn z-10 mt-5 text-gray-900 bg-white   duration-100 hover:text-[#ff535b] border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-3xl text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-600 dark:bg-gray-800 dark:border-gray-700 dark:text-white  me-2 mb-2">
+   Connect with Me <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+</svg>
+</a>
+      </div>
+    </>
+  );
+};
+
+export default Titlee;
