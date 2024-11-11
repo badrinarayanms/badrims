@@ -65,7 +65,7 @@ const Titlee = () => {
   return (
     <>
       <div>
-      <h1 className="pb-2  md:p-10 text-[#FF535B] mt-[25rem] md:mt-0  font-coolvetica">
+      <h1 className="pb-2  md:p-10 text-[#FF535B] mt-[27rem] md:mt-0  font-coolvetica">
         <span className="flex text-[2.5rem] md:text-[6em] lg:text-[8em] xl:text-[9em] min-[1440px]:text-[10em] 2xl:text-[14em] min-[2560px]:text-[20em] w-full justify-center items-center">
           {nameLetters.map(({ letter, key }) => (
             
