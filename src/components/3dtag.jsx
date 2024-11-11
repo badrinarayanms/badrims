@@ -8,9 +8,13 @@ import { MeshLineGeometry, MeshLineMaterial } from 'meshline'
 import banddd from '/public/assets/band.jpg' 
 // import basetag from '/public/assets/scene.glb' 
 import Titlee from './Titlee'
-const basetag = '../public/assets/scene.glb';
 
+function Model() {
+  // Load the model using useGLTF and pass the imported GLTF file
+  const { scene } = useGLTF(basetag);
 
+  return <primitive object={scene} />;
+}
 
 extend({ MeshLineGeometry, MeshLineMaterial })
 
@@ -53,6 +57,8 @@ export default function Tag3d() {
 }
 
 function Band({ maxSpeed = 50, minSpeed = 10,windowWidth }) {
+  
+  const basetag = 'public/assets/scenewd.glb';
   const band = useRef(), fixed = useRef(), j1 = useRef(), j2 = useRef(), j3 = useRef(), card = useRef()
   const vec = new THREE.Vector3(), ang = new THREE.Vector3(), rot = new THREE.Vector3(), dir = new THREE.Vector3()
   const segmentProps = { type: 'dynamic', canSleep: true, colliders: false, angularDamping: 2, linearDamping: 2 }
