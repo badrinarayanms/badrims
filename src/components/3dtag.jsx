@@ -5,7 +5,7 @@ import { Canvas, extend, useThree, useFrame } from '@react-three/fiber'
 import { useGLTF, useTexture, Environment, Lightformer } from '@react-three/drei'
 import { BallCollider, CuboidCollider, Physics, RigidBody, useRopeJoint, useSphericalJoint } from '@react-three/rapier'
 import { MeshLineGeometry, MeshLineMaterial } from 'meshline'
-import banddd from 'public/assets/band.jpg' 
+import banddd from '/public/assets/band.jpg' 
 import basetag from '/public/assets/scene.glb' 
 import Titlee from './Titlee'
 // const basetag = 'public/assets/scene.glb';
