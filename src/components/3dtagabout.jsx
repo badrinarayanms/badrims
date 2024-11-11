@@ -47,7 +47,7 @@ function Band({ maxSpeed = 50, minSpeed = 10, windowWidth }) {
     const band = useRef(), fixed = useRef(), j1 = useRef(), j2 = useRef(), j3 = useRef(), card = useRef();
     const vec = new THREE.Vector3(), ang = new THREE.Vector3(), rot = new THREE.Vector3(), dir = new THREE.Vector3();
     const segmentProps = { type: 'dynamic', canSleep: true, colliders: false, angularDamping: 2, linearDamping: 2 };
-    const { nodes, materials } = useGLTF("/assets/Scene1.glb");
+    const { nodes, materials } = useGLTF("/assets/Sceneback.glb");
     const texture = useTexture(banddd);
     const { width, height } = useThree((state) => state.size);
     const [curve] = useState(() => new THREE.CatmullRomCurve3([new THREE.Vector3(), new THREE.Vector3(), new THREE.Vector3(), new THREE.Vector3()]));
@@ -104,7 +104,7 @@ function Band({ maxSpeed = 50, minSpeed = 10, windowWidth }) {
 
     return (
         <>
-            <group position={pos}>
+            <group position={[0, 5, 0]}>
                 <RigidBody ref={fixed} {...segmentProps} type="fixed" />
                 <RigidBody position={[0.5, 0, 0]} ref={j1} {...segmentProps}>
                     <BallCollider args={[0.1]} />

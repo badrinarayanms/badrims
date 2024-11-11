@@ -26,3 +26,33 @@
     width: 500px; /* Adjust width as needed for the desired space */
   }
   
+  @layer components {
+    .scrolling-text {
+      @apply inline-block whitespace-nowrap;
+      animation: scroll 60s linear infinite;
+    }
+  
+    @keyframes scroll {
+      0% {
+        transform: translateX(0%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+  
+    .scrolling-text-right {
+      @apply inline-block whitespace-nowrap;
+      animation: scrollr 60s linear infinite;
+    }
+  
+    @keyframes scrollr {
+      0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(0%);
+      }
+    }
+  }
+  
