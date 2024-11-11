@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Hamburger from 'hamburger-react';
-import logo from '../assets/smile.png';
+import logo from '../../public/assets/smile.png';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
