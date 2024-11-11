@@ -8,7 +8,7 @@ import { MeshLineGeometry, MeshLineMaterial } from 'meshline'
 import banddd from '/public/assets/band.jpg' 
 // import basetag from '/public/assets/scene.glb' 
 import Titlee from './Titlee'
-const basetag = 'public/assets/scene.glb';
+const basetag = '../public/assets/scene.glb';
 
 
 
