@@ -31,7 +31,7 @@ const Titlee = () => {
       }
     );
 
-    tl.fromTo(".sidecc h1",{
+    tl.fromTo(".sidecc",{
       opacity: 0,
       y: 50,
     },
@@ -63,23 +63,23 @@ const Titlee = () => {
 
        
     })
-    tl.fromTo(".sidecc p",{
-      opacity: 0,
-      y: 50,
+    const h1Element = document.querySelector(".abt h1"); // Select h1 element
+    tl.fromTo(h1Element,{
+      opacity: 0.5,
+     
     },
     {
       opacity: 1,
-      y: 0,
-      duration: 0.5,
-      stagger: 0.3,
+    
+      duration: 0.1,      
       ease: 'power2.out',
       scrollTrigger:{
-        trigger: '.sidecc p', // Targeting the first <h1>
+        trigger: h1Element, // Use h1Element as the trigger
         start: 'top 80%',
         end: 'bottom 30%',
-        // Allows the animation to be tied to the scroll
         markers: true,
       }
+      
        
     })
     // ScrollTrigger for the first <h1>
@@ -92,7 +92,7 @@ const Titlee = () => {
       {
         opacity: 1,
         y: 0,
-        duration: 0.5,
+        duration: 1,
         ease: 'power2.out',
         scrollTrigger: {
           trigger: '.abt h1:nth-of-type(1)', // Targeting the first <h1>
@@ -114,6 +114,7 @@ const Titlee = () => {
           opacity: 1,
           y: 0,
           duration: 1,
+          delay:2,
           ease: 'power2.out',
           stagger:1,
           scrollTrigger: {
@@ -249,22 +250,11 @@ const Titlee = () => {
       
       </div>
       <div className="flex flex-col justify-center items-center mt-0 md:mr-20 md:mt-0 lg:justify-center lg:mt-16 lg:items-start px-10 xl:mr-36 xl:justify-center xxl:mt-[200px]">
-        <div className="sidecc flex gap-4 overflow-hidden pb-1 md:mt-0">
-          <p className=" text-3xl overflow-hidden sm:text-5xl text-[#FF535B] md:text-4xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-coolvetica">
-            Who
-          </p>
-          <p className=" text-3xl overflow-hidden sm:text-5xl text-[#FF535B] md:text-4xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-coolvetica">
-            am
-          </p>
-          <p className=" text-3xl overflow-hidden sm:text-5xl text-[#FF535B] md:text-4xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-coolvetica">
-            i
-          </p>
-          <p className=" text-3xl overflow-hidden sm:text-5xl text-[#FF535B] md:text-4xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-coolvetica">
-            ?
-          </p>
-        </div>
+        
         <div className="abt flex flex-col overflow-hidden pb-3 gap-4">
-          <div className='overflow-hidden'><h1 className=" text-3xl overflow-hidden sm:text-5xl text-[#ffff] md:text-4xl lg:text-6xl xl:text-xl 2xl:text-3xl font-coolvetica">
+        <div className='overflow-hidden'><h1 className=" text-3xl overflow-hidden sm:text-5xl text-[#ff535b] md:text-4xl lg:text-8xl xl:text-8xl 2xl:text-8xl font-coolvetica">
+        Who am i ?</h1></div>
+        <div className='overflow-hidden'><h1 className=" text-3xl overflow-hidden sm:text-5xl text-[#ffff] md:text-4xl lg:text-6xl xl:text-xl 2xl:text-3xl font-coolvetica">
           Hello! I'm Badri ms , a passionate software developer with a strong foundation in computer science and a flair for creating efficient, user-friendly applications.</h1></div>
 
           <div className='overflow-hidden'><h1 className="text-3xl overflow-hidden sm:text-5xl text-[#ffff] md:text-4xl lg:text-6xl xl:text-xl 2xl:text-3xl font-coolvetica">Currently pursuing my B.E. in Computer Science and Engineering at SRM Institute of Science and Technology, I'm driven by the endless possibilities that technology offers.</h1></div>
