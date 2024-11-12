@@ -60,7 +60,7 @@ const Navbar = () => {
       <div className="flex flex-col items-end p-16 mt-10 h-full">
       <a href="/"><h1 onClick={() =>{}} className="text-white text-right font-coolvetica text-5xl mb-10">Home</h1></a>
       <a href="/about"><h1 className="text-white text-right font-coolvetica text-5xl mb-10">About</h1></a>
-      <a href="/projects"><h1 className="text-white text-right font-coolvetica text-5xl mb-10">Projects</h1></a>
+      {/* <a href="/projects"><h1 className="text-white text-right font-coolvetica text-5xl mb-10">Projects</h1></a> */}
     </div>
       </div>
     </div>
