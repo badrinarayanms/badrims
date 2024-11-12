@@ -476,7 +476,7 @@ const Titlee = () => {
         href="https://www.linkedin.com/in/badri-narayan-m-s-60bab42a2/"
         target="_blank"
         rel="noopener noreferrer"
-        className=" text-white dark:text-white hover:text-[#ff535b]"
+        className=" text-white hover:text-[#ff535b]"
       >
         <FaLinkedin size={30} />
       </a>
@@ -486,7 +486,7 @@ const Titlee = () => {
         href="https://www.instagram.com/badri__.ms"
         target="_blank"
         rel="noopener noreferrer"
-        className=" text-white dark:text-white hover:text-[#ff535b]"
+        className=" text-white  hover:text-[#ff535b]"
       >
         <FaInstagram size={30} />
       </a>
@@ -496,7 +496,7 @@ const Titlee = () => {
         href="https://github.com/badrinarayanms"
         target="_blank"
         rel="noopener noreferrer"
-        className=" text-white dark:text-white hover:text-[#ff535b]"
+        className=" text-white  hover:text-[#ff535b]"
       >
         <FaGithub size={30} />
       </a>

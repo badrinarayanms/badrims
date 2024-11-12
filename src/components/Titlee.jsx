@@ -103,7 +103,7 @@ const Titlee = () => {
         </h1>
         
         </div>
-        <a href="https://www.linkedin.com/in/badri-narayan-m-s-60bab42a2/"  target="_blank" rel="noopener noreferrer" className="btn z-10 mt-2 text-gray-900 bg-white   duration-100 hover:text-[#ff535b] border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-3xl text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-600 dark:bg-gray-800 dark:border-gray-700 dark:text-white  me-2 mb-2">
+        <a href="https://www.linkedin.com/in/badri-narayan-m-s-60bab42a2/"  target="_blank" rel="noopener noreferrer" className="btn z-10 mt-2 text-gray-900 bg-white   duration-100 hover:text-[#ff535b] border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-3xl text-sm px-5 py-2.5 text-center inline-flex items-center ">
    Connect with Me <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
   <path
     stroke="currentColor"
