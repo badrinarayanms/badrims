@@ -445,7 +445,7 @@ const Titlee = () => {
       
     <div className="abtbtm w-full md:mt-5 lg:mt-52 xxl:-mt-[40rem] md:px-20 p-3 flex justify-between">
     <a
-      href="https://www.linkedin.com/in/badri-narayan-m-s-60bab42a2/"
+      href="mailto:badrinarayan.moola@gmail.com"
       target="_blank"
       rel="noopener noreferrer"
       className="abtbtm z-10 mt-2 text-gray-900 bg-white duration-100 text-[0.5rem] hover:text-[#ff535b] border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-3xl  lg:text-xl py-1.3 px-2.5 md:px-5 md:py-2.5 text-center inline-flex items-center dark:focus:ring-gray-600 dark:bg-[#5b5555] dark:border-gray-700 dark:text-white me-2 mb-2"
