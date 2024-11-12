@@ -11,14 +11,14 @@ Check out the live version of my portfolio here: [My Portfolio](https://badrims.
 
 ## 📋 Table of Contents
 
-- [Features](#features)
-- [Technologies Used](#technologies-used)
+- [Features](#-features)
+- [Technologies Used](#-technologies-used)
 - [Getting Started](#-getting-started)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- [Usage](#-usage)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Contact](#-contact)
 
 # ✨ Features
 
