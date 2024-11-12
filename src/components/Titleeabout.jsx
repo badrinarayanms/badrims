@@ -365,8 +365,21 @@ const Titlee = () => {
                  UI/UX DESIGNER</p>
               </div>
             </div>
+            <div className='w-full sidec flex items-center justify-center md:justify-end p-20 '><p className="bg-[#5B5555] bg-opacity-15 px-4 h-14 py-0  rounded-full flex items-center justify-end overflow-hidden text-xl text-justify text-[#ff535b] md:text-2xl font-coolvetica">
+        Scroll down <svg className="rotate-90  w-3 h-6 lg:w-5 lg:h-10 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+  <path
+    stroke="currentColor"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    strokeWidth="2"
+    d="M1 5h12m0 0L9 1m4 4L9 9"
+  />
+</svg></p></div>
         </div>
+        
+        
       </div>
+      
 
       
       </div>
