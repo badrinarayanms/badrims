@@ -13,25 +13,14 @@ import banddd from '/assets/band.jpg';
 extend({ MeshLineGeometry, MeshLineMaterial });
 
 export default function Tag3d() {
-    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+    
 
-    useEffect(() => {
-        const handleResize = () => {
-            window.location.reload();
-            setWindowWidth(window.innerWidth);
-        };
-
-        window.addEventListener('resize', handleResize);
-        return () => window.removeEventListener('resize', handleResize);
-    }, []);
-
-    console.log(windowWidth);
 
     return (
         <Canvas style={{ width: '100%', height: '100%' }} camera={{ position: [0, 0, 15], fov: 25 }}>
             <ambientLight intensity={0.5} />
             <Physics interpolate gravity={[0, -40, 0]} timeStep={1 / 60}>
-                <Band windowWidth={windowWidth} />
+                <Band  />
             </Physics>
             <Environment background blur={0.75}>
                 <Lightformer intensity={2} color="white" position={[0, -1, 5]} rotation={[0, 0, Math.PI / 3]} scale={[100, 0.1, 1]} />
@@ -43,7 +32,7 @@ export default function Tag3d() {
     );
 }
 
-function Band({ maxSpeed = 50, minSpeed = 10, windowWidth }) {
+function Band({ maxSpeed = 50, minSpeed = 10}) {
     const band = useRef(), fixed = useRef(), j1 = useRef(), j2 = useRef(), j3 = useRef(), card = useRef();
     const vec = new THREE.Vector3(), ang = new THREE.Vector3(), rot = new THREE.Vector3(), dir = new THREE.Vector3();
     const segmentProps = { type: 'dynamic', canSleep: true, colliders: false, angularDamping: 2, linearDamping: 2 };
@@ -94,13 +83,7 @@ function Band({ maxSpeed = 50, minSpeed = 10, windowWidth }) {
     curve.curveType = 'chordal';
     texture.wrapS = texture.wrapT = THREE.RepeatWrapping;
 
-    let pos = windowWidth >= 768 && windowWidth < 1024
-        ? [-1.5, 4, 0]
-        : windowWidth >= 1024 && windowWidth < 1440
-        ? [-2.5, 4, 0]
-        : windowWidth >= 1440
-        ? [-3, 4, 0]
-        : [0, 5, 0];
+  
 
     return (
         <>

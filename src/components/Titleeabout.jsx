@@ -13,6 +13,7 @@ const Titlee = () => {
     const tl = gsap.timeline();
 
     const wwidth = window.innerWidth;
+    const wheight = window.innerHeight<=777;
     
     const isMobileOrTablet = window.innerWidth <= 425;
     const delay = isMobileOrTablet ? 2 : 0; 
@@ -435,7 +436,7 @@ const Titlee = () => {
         
       </div>
 
-      <div className='pintext w-full flex   items-center overflow-hidden px-5 md:px-20 lg:h-screen bg-[#ff535b]'>
+      <div className=' pintext w-full flex   items-center overflow-hidden px-5 md:px-20 lg:h-screen bg-[#ff535b]'>
   <h1 className="text-3xl flex justify-between items-center  lg:block  w-full lg:w-auto   text-[#1d1d1d] md:text-5xl lg:text-[30rem] xl:text-[40rem] 2xl:text-[50rem] xxxl:text-[60rem] font-coolvetica whitespace-nowrap">
     Let's connect! <a href="https://www.linkedin.com/in/badri-narayan-m-s-60bab42a2/"  target="_blank" rel="noopener noreferrer" className="my-auto z-10 mt-2 ml-4 md:ml-0 text-[gray-900] bg-white md:h-20 lg:h-full w-36 md:w-64 lg:w-full duration-100 hover:text-[#ff535b] border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-[15rem] text-[30rem] lg:text-[10rem] p-0 lg:px-5 lg:py-2.5 text-center flex justify-between lg:justify-start lg:inline-flex items-center dark:focus:ring-gray-600 dark:bg-[#1d1d1d] hover:border-gray-700 dark:text-white  me-2 mb-2">
    <img src="/assets/dplinkedin.png" alt="prof" width={500} className='p-2 md:p-5 lg:p-10 w-11 md:w-24 lg:w-64  xxl:w-96' /><svg className="rtl:rotate-180 w-6 h-10 lg:w-30 lg:h-20 mr-5 lg:mr-0 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
@@ -454,7 +455,7 @@ const Titlee = () => {
     <div className='lg:h-screen '>
       
     </div>
-    <div className='h-full '>
+    <div className='h-full   '>
       
     <div className="abtbtm w-full md:mt-5 lg:mt-52 xxl:-mt-[40rem] md:px-20 p-3 flex justify-between">
     <a
@@ -480,7 +481,7 @@ const Titlee = () => {
         />
       </svg>
     </a>
-
+   
     <div className="abtbtm flex mt-5 space-x-4">
       {/* LinkedIn Icon */}
       <a
