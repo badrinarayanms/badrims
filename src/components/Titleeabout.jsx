@@ -255,7 +255,7 @@ const Titlee = () => {
         ease: 'power2.out',
         scrollTrigger: {
           trigger: '.abtbtm ', // Targeting the first <h1>
-          start: 'top 80%',
+          start: 'top 90%',
           end: 'bottom 30%',
             
           // Allows the animation to be tied to the scroll
@@ -278,9 +278,9 @@ const Titlee = () => {
         ease: 'power2.out',
         scrollTrigger: {
           trigger: '.abtbtm ', // Targeting the first <h1>
-          start: 'top 80%',
+          start: 'top 90%',
           end: 'bottom 30%',
-            
+          
           // Allows the animation to be tied to the scroll
           // Optional: helps you visualize start/end positions
         }
@@ -302,19 +302,19 @@ const Titlee = () => {
         <div className="w-screen md:mt-36 mt-24 ">
             <div className="   overflow-hidden  -rotate-[8deg] md:-rotate-6  w-[120vw] -mx-4">
               <div className="flex whitespace-nowrap sidec scrolling-container">
-              <p className="text-[#5B5555]  font-coolvetica  text-8xl md:text-[10rem]  lg:text-[9rem] xxl:text-[18rem] font-medium flex justify-center items-center  md:word-spacing word-spacing-m scrolling-text-right">
+              <p className="text-[#5B5555]  font-coolvetica  text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium flex justify-center items-center  md:word-spacing word-spacing-m scrolling-text-right">
               WEB DEVELOPER</p>
                  <p style={{
                 color:' #1d1d1d', // Fill color for the letters
                 WebkitTextStroke:  '2px #FF535B', // Apply stroke only for mobile/tablet
-              }} className="font-coolvetica text-8xl md:text-[10rem]  lg:text-[9rem] xxl:text-[18rem] font-medium flex justify-center items-center  md:word-spacing word-spacing-m scrolling-text-right mr-36">
+              }} className="font-coolvetica text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium flex justify-center items-center  md:word-spacing word-spacing-m scrolling-text-right mr-36">
                  UI/UX DESIGNER</p>
-                   <p className="text-[#5B5555] font-coolvetica  text-8xl md:text-[10rem]  lg:text-[9rem] xxl:text-[18rem] font-medium flex justify-center items-center  md:word-spacing word-spacing-m  scrolling-text-right  mr-12">
+                   <p className="text-[#5B5555] font-coolvetica  text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium flex justify-center items-center  md:word-spacing word-spacing-m  scrolling-text-right  mr-12">
                    WEB DEVELOPER</p>
                    <p style={{
                 color:' #1d1d1d', // Fill color for the letters
                 WebkitTextStroke:  '2px #FF535B', // Apply stroke only for mobile/tablet
-              }} className="font-coolvetica text-8xl md:text-[10rem]  lg:text-[9rem] xxl:text-[18rem] font-medium flex justify-center  items-center  md:word-spacing word-spacing-m scrolling-text-right mr-4">
+              }} className="font-coolvetica text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium flex justify-center  items-center  md:word-spacing word-spacing-m scrolling-text-right mr-4">
                  UI/UX DESIGNER</p>
               </div>
             </div>
@@ -325,22 +325,22 @@ const Titlee = () => {
               <p style={{
                 color:' #1d1d1d', // Fill color for the letters
                 WebkitTextStroke:  '2px #5B5555', // Apply stroke only for mobile/tablet
-              }} className="font-coolvetica flex justify-center items-center text-8xl md:text-[10rem]  lg:text-[9rem] xxl:text-[18rem] font-medium  md:word-spacing word-spacing-m scrolling-text">
+              }} className="font-coolvetica flex justify-center items-center text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium  md:word-spacing word-spacing-m scrolling-text">
                 WEB DEVELOPER</p>
                 <p style={{
                 color:' #1d1d1d', // Fill color for the letters
                 WebkitTextStroke:  '2px #5B5555', // Apply stroke only for mobile/tablet
-              }} className="text-[#5B5555] font-coolvetica flex justify-center items-center  text-8xl md:text-[10rem]  lg:text-[9rem] xxl:text-[18rem] font-medium md:word-spacing word-spacing-m mr-16  scrolling-text">
+              }} className="text-[#5B5555] font-coolvetica flex justify-center items-center  text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium md:word-spacing word-spacing-m mr-16  scrolling-text">
                    UI/UX DESIGNER</p>
                  <p style={{
                 color:' #1d1d1d', // Fill color for the letters
                 WebkitTextStroke:  '2px #5B5555', // Apply stroke only for mobile/tablet
-              }} className="font-coolvetica flex justify-center items-center text-8xl md:text-[10rem]  lg:text-[9rem] xxl:text-[18rem] font-medium  md:word-spacing word-spacing-m scrolling-text ">
+              }} className="font-coolvetica flex justify-center items-center text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium  md:word-spacing word-spacing-m scrolling-text ">
                    WEB DEVELOPER</p>
                    <p style={{
                 color:' #1d1d1d', // Fill color for the letters
                 WebkitTextStroke:  '2px #5B5555', // Apply stroke only for mobile/tablet
-              }} className="text-[#5B5555] font-coolvetica flex justify-center items-center  text-8xl md:text-[10rem]  lg:text-[9rem] xxl:text-[18rem] font-medium md:word-spacing word-spacing-m scrolling-text">
+              }} className="text-[#5B5555] font-coolvetica flex justify-center items-center  text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium md:word-spacing word-spacing-m scrolling-text">
                    UI/UX DESIGNER</p>
               </div>
               
@@ -352,20 +352,20 @@ const Titlee = () => {
               <p style={{
                 color:' #1d1d1d', // Fill color for the letters
                 WebkitTextStroke:  '2px #5B5555', // Apply stroke only for mobile/tablet
-              }} className="font-coolvetica text-8xl md:text-[10rem]   lg:text-[9rem] xxl:text-[18rem] font-medium flex justify-center items-center  md:word-spacing word-spacing-m scrolling-text-right">
+              }} className="font-coolvetica text-8xl md:text-[10rem]   lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium flex justify-center items-center  md:word-spacing word-spacing-m scrolling-text-right">
               WEB DEVELOPER</p>
-                 <p className="text-[#FF535B] font-coolvetica text-8xl md:text-[10rem]  lg:text-[9rem] xxl:text-[18rem] font-medium flex justify-center items-center  md:word-spacing word-spacing-m scrolling-text-right mr-36">
+                 <p className="text-[#FF535B] font-coolvetica text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium flex justify-center items-center  md:word-spacing word-spacing-m scrolling-text-right mr-36">
                  UI/UX DESIGNER</p>
                    <p style={{
                 color:' #1d1d1d', // Fill color for the letters
                 WebkitTextStroke:  '2px #FF535B', // Apply stroke only for mobile/tablet
-              }}  className="font-coolvetica  text-8xl md:text-[10rem]  lg:text-[9rem] xxl:text-[18rem] font-medium flex justify-center items-center  md:word-spacing word-spacing-m scrolling-text-right  mr-16">
+              }}  className="font-coolvetica  text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium flex justify-center items-center  md:word-spacing word-spacing-m scrolling-text-right  mr-16">
                    WEB DEVELOPER</p>
-                   <p className="text-[#FF535B] font-coolvetica text-8xl md:text-[10rem]  lg:text-[9rem] xxl:text-[18rem] font-medium flex justify-center items-center  md:word-spacing word-spacing-m scrolling-text-right">
+                   <p className="text-[#FF535B] font-coolvetica text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium flex justify-center items-center  md:word-spacing word-spacing-m scrolling-text-right">
                  UI/UX DESIGNER</p>
               </div>
             </div>
-            <div className='w-full sidec flex items-center justify-center md:justify-end p-20 xl:-mt-32 xxl:mt-0'><p className="bg-[#5B5555] bg-opacity-15 px-4 h-14 py-0  rounded-full flex items-center justify-end overflow-hidden text-xl text-justify text-[#ff535b] md:text-2xl font-coolvetica">
+            <div className='w-full sidec flex items-center justify-center  lg:justify-end p-20 mt-1rem min-[600px]:mt-[4rem] min-[800px]:mt-[10rem] md:mt-[1rem] min-[800px]:justify-center xl:-mt-32 xxl:mt-0'><p className="bg-[#5B5555] bg-opacity-15 px-4 h-14 py-0  rounded-full flex items-center justify-end overflow-hidden text-xl text-justify text-[#ff535b] md:text-2xl font-coolvetica">
         Scroll down <svg className="rotate-90  w-3 h-6 lg:w-5 lg:h-10 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
   <path
     stroke="currentColor"
@@ -383,7 +383,7 @@ const Titlee = () => {
 
       
       </div>
-      <div className="flex flex-col justify-center items-center -mt-56  xl:-mt-6 xxl:-mt-56 md:mt-0 lg:justify-center lg:mt-16 lg:items-start px-6 md:px-20   ">
+      <div className="flex flex-col justify-center items-center min-[600px]:-mt-88 md:-mt-56  min-[800px]:-mt-80 -mt-56  xl:-mt-6 xxl:-mt-56 lg:justify-center lg:mt-16 lg:items-start px-6 md:px-20   ">
         
         <div className="abt w-full flex flex-col overflow-hidden pb-3 gap-2">
         <div className='overflow-hidden'><h1 className="  w-full overflow-hidden text-5xl text-justify text-[#ff535b] md:text-4xl lg:text-7xl xl:text-8xl 2xl:text-8xl font-coolvetica">

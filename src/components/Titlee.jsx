@@ -65,7 +65,7 @@ const Titlee = () => {
   return (
     <>
       <div>
-      <h1 className="pb-2  md:p-10 text-[#FF535B] mt-[27rem] md:mt-0  font-coolvetica">
+      <h1  className="pb-2  md:p-10 text-[#FF535B]   mt-[59vh] md:mt-0  font-coolvetica">
         <span className="flex text-[2.5rem] md:text-[6em] lg:text-[7em] xl:text-[8em] min-[1440px]:text-[8em] 2xl:text-[12em] min-[2560px]:text-[18em] w-full justify-center items-center">
           {nameLetters.map(({ letter, key }) => (
             
@@ -85,7 +85,7 @@ const Titlee = () => {
       </h1>
 
       </div>
-      <div  className="sidec  flex flex-col justify-center ml-0 items-center mt-0 md:items-end md:mr-20 md:mt-0 xl:mt-0  lg:mr-24 lg:justify-center lg:mt-16 lg:items-end xl:items-end xl:mr-36 xl:justify-center xxl:mt-[200px]">
+      <div  className="sidec  flex flex-col justify-center ml-0 items-center   min-[414px]:mt-36 md:items-end md:mr-20 md:mt-0 xl:mt-0  lg:mr-24 lg:justify-center lg:mt-16 lg:items-end xl:items-end xl:mr-36 xl:justify-center xxl:mt-[200px]">
         <div className=' flex gap-4  overflow-hidden pb-1 md:mt-0'>
         <h1 className="text-3xl overflow-hidden  sm:text-5xl text-[#FF535B] md:text-4xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-coolvetica">
           Frontend

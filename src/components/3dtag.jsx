@@ -95,9 +95,9 @@ function Band({ maxSpeed = 50, minSpeed = 10, windowWidth }) {
     texture.wrapS = texture.wrapT = THREE.RepeatWrapping;
 
     let pos = windowWidth >= 768 && windowWidth < 1024
-        ? [-1.5, 4, 0]
+        ? [-1, 4, 0]
         : windowWidth >= 1024 && windowWidth < 1440
-        ? [-2.5, 4, 0]
+        ? [-1.5, 4, 0]
         : windowWidth >= 1440
         ? [-3, 4, 0]
         : [0, 5, 0];
