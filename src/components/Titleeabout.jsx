@@ -306,15 +306,15 @@ const Titlee = () => {
               <p className="text-[#5B5555]  font-coolvetica  text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium flex justify-center items-center  md:word-spacing word-spacing-m scrolling-text-right">
               WEB DEVELOPER</p>
                  <p style={{
-                color:' #1d1d1d', // Fill color for the letters
-                WebkitTextStroke:  '2px #FF535B', // Apply stroke only for mobile/tablet
+                color:' #1d1d1d', 
+                WebkitTextStroke:  '2px #FF535B', 
               }} className="font-coolvetica text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium flex justify-center items-center  md:word-spacing word-spacing-m scrolling-text-right mr-36">
                  UI/UX DESIGNER</p>
                    <p className="text-[#5B5555] font-coolvetica  text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium flex justify-center items-center  md:word-spacing word-spacing-m  scrolling-text-right  mr-12">
                    WEB DEVELOPER</p>
                    <p style={{
-                color:' #1d1d1d', // Fill color for the letters
-                WebkitTextStroke:  '2px #FF535B', // Apply stroke only for mobile/tablet
+                color:' #1d1d1d', 
+                WebkitTextStroke:  '2px #FF535B', 
               }} className="font-coolvetica text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium flex justify-center  items-center  md:word-spacing word-spacing-m scrolling-text-right mr-4">
                  UI/UX DESIGNER</p>
               </div>
@@ -324,23 +324,23 @@ const Titlee = () => {
             <div className=" py-2   overflow-hidden  -rotate-[8deg] md:-rotate-6  -my-2  w-[120vw] -mx-4 ">
               <div className="flex whitespace-nowrap sidec scrolling-container">
               <p style={{
-                color:' #1d1d1d', // Fill color for the letters
-                WebkitTextStroke:  '2px #5B5555', // Apply stroke only for mobile/tablet
+                color:' #1d1d1d', 
+                WebkitTextStroke:  '2px #5B5555', 
               }} className="font-coolvetica flex justify-center items-center text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium  md:word-spacing word-spacing-m scrolling-text">
                 WEB DEVELOPER</p>
                 <p style={{
-                color:' #1d1d1d', // Fill color for the letters
-                WebkitTextStroke:  '2px #5B5555', // Apply stroke only for mobile/tablet
+                color:' #1d1d1d', 
+                WebkitTextStroke:  '2px #5B5555', 
               }} className="text-[#5B5555] font-coolvetica flex justify-center items-center  text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium md:word-spacing word-spacing-m mr-16  scrolling-text">
                    UI/UX DESIGNER</p>
                  <p style={{
-                color:' #1d1d1d', // Fill color for the letters
-                WebkitTextStroke:  '2px #5B5555', // Apply stroke only for mobile/tablet
+                color:' #1d1d1d', 
+                WebkitTextStroke:  '2px #5B5555', 
               }} className="font-coolvetica flex justify-center items-center text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium  md:word-spacing word-spacing-m scrolling-text ">
                    WEB DEVELOPER</p>
                    <p style={{
-                color:' #1d1d1d', // Fill color for the letters
-                WebkitTextStroke:  '2px #5B5555', // Apply stroke only for mobile/tablet
+                color:' #1d1d1d', 
+                WebkitTextStroke:  '2px #5B5555', 
               }} className="text-[#5B5555] font-coolvetica flex justify-center items-center  text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium md:word-spacing word-spacing-m scrolling-text">
                    UI/UX DESIGNER</p>
               </div>
@@ -351,15 +351,15 @@ const Titlee = () => {
             <div className="   overflow-hidden  -rotate-[8deg] md:-rotate-6    w-[120vw] -mx-4">
               <div className="flex whitespace-nowrap sidec scrolling-container">
               <p style={{
-                color:' #1d1d1d', // Fill color for the letters
-                WebkitTextStroke:  '2px #5B5555', // Apply stroke only for mobile/tablet
+                color:' #1d1d1d', 
+                WebkitTextStroke:  '2px #5B5555', 
               }} className="font-coolvetica text-8xl md:text-[10rem]   lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium flex justify-center items-center  md:word-spacing word-spacing-m scrolling-text-right">
               WEB DEVELOPER</p>
                  <p className="text-[#FF535B] font-coolvetica text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium flex justify-center items-center  md:word-spacing word-spacing-m scrolling-text-right mr-36">
                  UI/UX DESIGNER</p>
                    <p style={{
-                color:' #1d1d1d', // Fill color for the letters
-                WebkitTextStroke:  '2px #FF535B', // Apply stroke only for mobile/tablet
+                color:' #1d1d1d', 
+                WebkitTextStroke:  '2px #FF535B', 
               }}  className="font-coolvetica  text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium flex justify-center items-center  md:word-spacing word-spacing-m scrolling-text-right  mr-16">
                    WEB DEVELOPER</p>
                    <p className="text-[#FF535B] font-coolvetica text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium flex justify-center items-center  md:word-spacing word-spacing-m scrolling-text-right">
@@ -436,16 +436,46 @@ const Titlee = () => {
         
       </div>
 
-      <div className=' abtbtm w-full flex  h-24 items-center overflow-hidden px-5 md:px-20  bg-[#ff535b]'>
-  <a className="text-3xl flex justify-between items-center   w-full   text-[#1d1d1d] md:text-5xl  font-coolvetica whitespace-nowrap">
+      <div className=' abtbtm w-full flex  py-2 items-center overflow-hidden   bg-[#ff535b]'>
+  {/* <a className="text-3xl flex justify-between items-center   w-full   text-[#1d1d1d] md:text-5xl  font-coolvetica whitespace-nowrap">
     Let's connect!
-  </a>
+  </a> */}
+  <div className="w-full">
+            <div className="   overflow-hidden    ">
+              <div className="flex whitespace-nowrap  scrolling-container">
+              <p  className="text-[#1d1d1d]  font-coolvetica text-xl md:text-2xl   font-medium flex justify-center  items-center  md:word-spacing word-spacing-m scrolling-text-connect mr-12">
+              Let's Connect !</p>
+              <p  className="text-[#1d1d1d]  font-coolvetica text-xl md:text-2xl   font-medium flex justify-center  items-center  md:word-spacing word-spacing-m scrolling-text-connect mr-12">
+                   Let's Connect !</p>
+                   <p  className="text-[#1d1d1d]  font-coolvetica text-xl md:text-2xl   font-medium flex justify-center  items-center  md:word-spacing word-spacing-m scrolling-text-connect mr-12">
+                   Let's Connect !</p>
+              <p className="text-[#1d1d1d]  font-coolvetica  text-xl md:text-2xl  font-medium flex justify-center items-center  md:word-spacing word-spacing-m scrolling-text-connect mr-12">
+              Let's Connect !</p>
+                 <p  className="text-[#1d1d1d]  font-coolvetica text-xl md:text-2xl   font-medium flex justify-center items-center  md:word-spacing word-spacing-m scrolling-text-connect mr-12">
+                 Let's Connect !</p>
+                   <p className="text-[#1d1d1d] font-coolvetica  text-xl md:text-2xl   font-medium flex justify-center items-center  md:word-spacing word-spacing-m  scrolling-text-connect  mr-12">
+                   Let's Connect !</p>
+                   <p  className="text-[#1d1d1d]  font-coolvetica text-xl md:text-2xl   font-medium flex justify-center  items-center  md:word-spacing word-spacing-m scrolling-text-connect mr-12">
+                   Let's Connect !</p>
+                   <p  className="text-[#1d1d1d]  font-coolvetica text-xl md:text-2xl   font-medium flex justify-center  items-center  md:word-spacing word-spacing-m scrolling-text-connect mr-12">
+                   Let's Connect !</p>
+                   <p  className="text-[#1d1d1d]  font-coolvetica text-xl md:text-2xl   font-medium flex justify-center  items-center  md:word-spacing word-spacing-m scrolling-text-connect mr-12">
+                   Let's Connect !</p>
+                   <p  className="text-[#1d1d1d]  font-coolvetica text-xl md:text-2xl   font-medium flex justify-center  items-center  md:word-spacing word-spacing-m scrolling-text-connect mr-12">
+                   Let's Connect !</p>
+                   <p  className="text-[#1d1d1d]  font-coolvetica text-xl md:text-2xl   font-medium flex justify-center  items-center  md:word-spacing word-spacing-m scrolling-text-connect mr-12">
+                   Let's Connect !</p>
+                   <p  className="text-[#1d1d1d]  font-coolvetica text-xl md:text-2xl   font-medium flex justify-center  items-center  md:word-spacing word-spacing-m scrolling-text-connect mr-12">
+                   Let's Connect !</p>
+              </div>
+            </div>
+        </div>
 </div>
 
     
     <div className='h-full   '>
       
-    <div className="abtbtm w-full md:mt-10  md:px-20 p-3 flex justify-between">
+    <div className="abtbtm w-full md:mt-10 mb-3 md:px-20 p-3 flex justify-between">
     <a
       href="mailto:badrinarayan.moola@gmail.com"
       target="_blank"
@@ -471,7 +501,7 @@ const Titlee = () => {
     </a>
    
     <div className="abtbtm flex mt-5 space-x-4">
-      {/* LinkedIn Icon */}
+     
       <a
         href="https://www.linkedin.com/in/badri-narayan-m-s-60bab42a2/"
         target="_blank"
@@ -481,7 +511,7 @@ const Titlee = () => {
         <FaLinkedin size={30} />
       </a>
 
-      {/* Instagram Icon */}
+      
       <a
         href="https://www.instagram.com/badri__.ms"
         target="_blank"
@@ -491,7 +521,7 @@ const Titlee = () => {
         <FaInstagram size={30} />
       </a>
 
-      {/* GitHub Icon */}
+   
       <a
         href="https://github.com/badrinarayanms"
         target="_blank"

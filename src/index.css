@@ -29,7 +29,7 @@
   @layer components {
     .scrolling-text {
       @apply inline-block whitespace-nowrap;
-      animation: scroll 60s linear infinite;
+      animation: scroll 40s linear infinite;
     }
   
     @keyframes scroll {
@@ -43,7 +43,7 @@
   
     .scrolling-text-right {
       @apply inline-block whitespace-nowrap;
-      animation: scrollr 60s linear infinite;
+      animation: scrollr 40s linear infinite;
     }
   
     @keyframes scrollr {
@@ -54,5 +54,18 @@
         transform: translateX(0%);
       }
     }
-  }
   
+    .scrolling-text-connect {
+      @apply inline-block whitespace-nowrap;
+      animation: scrollc 5s linear infinite;
+    }
+  
+    @keyframes scrollc {
+      0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(0%);
+      }
+    }
+  }
