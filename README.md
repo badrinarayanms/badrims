@@ -12,7 +12,7 @@ Check out the live version of my portfolio here: [My Portfolio](https://badrims.
 ## 📋 Table of Contents
 
 - [Features](#-features)
-- [Technologies Used](#-technologies-used)
+- [Technologies Used](#%EF%B8%8F-technologies-used)
 - [Getting Started](#-getting-started)
 - [Installation](#installation)
 - [Usage](#-usage)
