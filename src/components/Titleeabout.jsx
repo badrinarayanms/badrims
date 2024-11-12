@@ -370,7 +370,7 @@ const Titlee = () => {
 
       
       </div>
-      <div className="flex flex-col justify-center items-center -mt-56 xl:-mt-56 xxl:-mt-56 md:mt-0 lg:justify-center lg:mt-16 lg:items-start px-6 md:px-20   ">
+      <div className="flex flex-col justify-center items-center -mt-56  xl:-mt-8 xxl:-mt-56 md:mt-0 lg:justify-center lg:mt-16 lg:items-start px-6 md:px-20   ">
         
         <div className="abt w-full flex flex-col overflow-hidden pb-3 gap-2">
         <div className='overflow-hidden'><h1 className="  w-full overflow-hidden text-5xl text-justify text-[#ff535b] md:text-4xl lg:text-7xl xl:text-8xl 2xl:text-8xl font-coolvetica">
