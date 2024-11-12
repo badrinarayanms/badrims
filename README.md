@@ -15,7 +15,7 @@ Check out the live version of my portfolio here: [My Portfolio](https://badrims.
 - [Technologies Used](#%EF%B8%8F-technologies-used)
 - [Getting Started](#-getting-started)
 - [Installation](#installation)
-- [Usage](#-usage)
+- [Usage](#usage)
 - [Contributing](#-contributing)
 - [License](#-license)
 - [Contact](#-contact)
