@@ -13,7 +13,7 @@ Check out the live version of my portfolio here: [My Portfolio](https://badrims.
 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
+- [Getting Started](#-getting-started)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
