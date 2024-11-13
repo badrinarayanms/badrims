@@ -103,7 +103,7 @@ const Titlee = () => {
         </h1>
         
         </div>
-        <div className='flex flex-col w-[70%] md:w-[25%] items-center lg:flex-row'>
+        <div className='flex flex-col w-[70%] md:w-[25%] items-center lg:flex-row mb-5 md:mb-0'>
         
 <a href="https://linktr.ee/badrinarayanms"  target="_blank" rel="noopener noreferrer" className="lg:mr-5 w-full  btn z-10 mt-2 text-gray-900 bg-white   duration-100 hover:text-[#ff535b] border-[#ff535b] focus:ring-4 focus:outline-none focus:ring-[#ff535b] font-medium rounded-3xl text-sm px-5 py-2.5 text-center justify-center inline-flex items-center ">
    Connect with Me <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
