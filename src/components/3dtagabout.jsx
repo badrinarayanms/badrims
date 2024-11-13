@@ -83,7 +83,7 @@ function Band({ maxSpeed = 50, minSpeed = 10}) {
     curve.curveType = 'chordal';
     texture.wrapS = texture.wrapT = THREE.RepeatWrapping;
 
-    const isMobileOrTablet = window.innerWidth <= 768;
+    const isMobileOrTablet = window.innerWidth <= 1020;
   
 
     return (

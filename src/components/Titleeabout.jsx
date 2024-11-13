@@ -3,6 +3,11 @@ import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { AiFillHtml5 } from 'react-icons/ai';
+import { DiCss3, DiJavascript1 } from 'react-icons/di';
+import { FaReact, FaJava } from 'react-icons/fa';
+import { SiPython, SiCplusplus } from 'react-icons/si';
+
 gsap.registerPlugin(ScrollTrigger)
 
 const Titlee = () => {
@@ -407,32 +412,57 @@ const Titlee = () => {
        
           
         </div>
-        <div className="skillset w-full flex flex-col overflow-hidden pb-3 gap-4">
-        <div className='overflow-hidden'><h1 className=" text-3xl overflow-hidden sm:text-5xl text-[#ffff] md:text-4xl lg:text-5xl xl:text-8xl 2xl:text-8xl font-coolvetica">
-        html</h1>
-        <div className='line w-full mt-4 h-[0.1rem] bg-white'></div></div>
-         <div className='overflow-hidden'><h1 className=" text-3xl overflow-hidden sm:text-5xl text-[#ffff] md:text-4xl lg:text-5xl xl:text-8xl 2xl:text-8xl font-coolvetica">
-        css</h1>
-        <div className='line w-full mt-4 h-[0.1rem] bg-white'></div></div>
-        <div className='overflow-hidden'><h1 className=" text-3xl overflow-hidden sm:text-5xl text-[#ffff] md:text-4xl lg:text-5xl xl:text-8xl 2xl:text-8xl font-coolvetica">
-        JavaScript</h1>
-        <div className='line w-full mt-4 h-[0.1rem] bg-white'></div></div>
-        <div className='overflow-hidden'><h1 className=" text-3xl overflow-hidden sm:text-5xl text-[#ffff] md:text-4xl lg:text-5xl xl:text-8xl 2xl:text-8xl font-coolvetica">
-        React JS</h1>
-        <div className='line w-full mt-4 h-[0.1rem] bg-white'></div></div>
-        <div className='overflow-hidden'><h1 className=" text-3xl overflow-hidden sm:text-5xl text-[#ffff] md:text-4xl lg:text-5xl xl:text-8xl 2xl:text-8xl font-coolvetica">
-        Java</h1>
-        <div className='line w-full mt-4 h-[0.1rem] bg-white'></div></div>
-        <div className='overflow-hidden'><h1 className=" text-3xl overflow-hidden sm:text-5xl text-[#ffff] md:text-4xl lg:text-5xl xl:text-8xl 2xl:text-8xl font-coolvetica">
-        Python</h1>
-        <div className='line w-full mt-4 h-[0.1rem] bg-white'></div></div>
-        <div className='overflow-hidden'><h1 className=" text-3xl overflow-hidden sm:text-5xl text-[#ffff] md:text-4xl lg:text-5xl xl:text-8xl 2xl:text-8xl font-coolvetica">
-        C C++</h1>
-        <div className='line w-full mt-4 h-[0.1rem] bg-white'></div></div>
-        <div className='overflow-hidden'><h1 className=" text-3xl overflow-hidden sm:text-5xl text-[#ffff] md:text-4xl lg:text-5xl xl:text-8xl 2xl:text-8xl font-coolvetica">
-        Open to learn new tech</h1>
-        <div className='line w-full mt-4 h-[0.1rem] mb-10 md:mb-36 bg-white'></div></div>
-        </div>
+        <div className="skillset w-full flex flex-col overflow-hidden pb-3 gap-4"> 
+  <div className='overflow-hidden'>
+    <h1 className=" text-3xl overflow-hidden sm:text-5xl text-[#ffff] md:text-4xl lg:text-5xl xl:text-8xl 2xl:text-8xl font-coolvetica">
+      <AiFillHtml5 className="inline mr-2" /> html
+    </h1>
+    <div className='line w-full mt-4 h-[0.1rem] bg-white'></div>
+  </div>
+  <div className='overflow-hidden'>
+    <h1 className=" text-3xl overflow-hidden sm:text-5xl text-[#ffff] md:text-4xl lg:text-5xl xl:text-8xl 2xl:text-8xl font-coolvetica">
+      <DiCss3 className="inline mr-2" /> css
+    </h1>
+    <div className='line w-full mt-4 h-[0.1rem] bg-white'></div>
+  </div>
+  <div className='overflow-hidden'>
+    <h1 className=" text-3xl overflow-hidden sm:text-5xl text-[#ffff] md:text-4xl lg:text-5xl xl:text-8xl 2xl:text-8xl font-coolvetica">
+      <DiJavascript1 className="inline mr-2" /> JavaScript
+    </h1>
+    <div className='line w-full mt-4 h-[0.1rem] bg-white'></div>
+  </div>
+  <div className='overflow-hidden'>
+    <h1 className=" text-3xl overflow-hidden sm:text-5xl text-[#ffff] md:text-4xl lg:text-5xl xl:text-8xl 2xl:text-8xl font-coolvetica">
+      <FaReact className="inline mr-2" /> React JS
+    </h1>
+    <div className='line w-full mt-4 h-[0.1rem] bg-white'></div>
+  </div>
+  <div className='overflow-hidden'>
+    <h1 className=" text-3xl overflow-hidden sm:text-5xl text-[#ffff] md:text-4xl lg:text-5xl xl:text-8xl 2xl:text-8xl font-coolvetica">
+      <FaJava className="inline mr-2" /> Java
+    </h1>
+    <div className='line w-full mt-4 h-[0.1rem] bg-white'></div>
+  </div>
+  <div className='overflow-hidden'>
+    <h1 className=" text-3xl overflow-hidden sm:text-5xl text-[#ffff] md:text-4xl lg:text-5xl xl:text-8xl 2xl:text-8xl font-coolvetica">
+      <SiPython className="inline mr-2" /> Python
+    </h1>
+    <div className='line w-full mt-4 h-[0.1rem] bg-white'></div>
+  </div>
+  <div className='overflow-hidden'>
+    <h1 className=" text-3xl overflow-hidden sm:text-5xl text-[#ffff] md:text-4xl lg:text-5xl xl:text-8xl 2xl:text-8xl font-coolvetica">
+      <SiCplusplus className="inline mr-2" /> C C++
+    </h1>
+    <div className='line w-full mt-4 h-[0.1rem] bg-white'></div>
+  </div>
+  <div className='overflow-hidden'>
+    <h1 className=" text-3xl overflow-hidden sm:text-5xl text-[#ffff] md:text-4xl lg:text-5xl xl:text-8xl 2xl:text-8xl font-coolvetica">
+      Open to learn new tech
+    </h1>
+    <div className='line w-full mt-4 h-[0.1rem] mb-10 md:mb-36 bg-white'></div>
+  </div>
+</div>
+
         
       </div>
 

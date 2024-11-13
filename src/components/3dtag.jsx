@@ -101,7 +101,7 @@ function Band({ maxSpeed = 50, minSpeed = 10, windowWidth }) {
         : windowWidth >= 1440
         ? [-3, 4, 0]
         : [0, 5, 0];
-        const isMobileOrTablet = window.innerWidth <= 768;
+        const isMobileOrTablet = window.innerWidth <=1020;
     return (
         <>
             <group position={pos}>
