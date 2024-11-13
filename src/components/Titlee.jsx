@@ -103,7 +103,9 @@ const Titlee = () => {
         </h1>
         
         </div>
-        <a href="https://linktr.ee/badrinarayanms"  target="_blank" rel="noopener noreferrer" className="btn z-10 mt-2 text-gray-900 bg-white   duration-100 hover:text-[#ff535b] border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-3xl text-sm px-5 py-2.5 text-center inline-flex items-center ">
+        <div className='flex flex-col w-[70%] md:w-[25%] items-center lg:flex-row'>
+        
+<a href="https://linktr.ee/badrinarayanms"  target="_blank" rel="noopener noreferrer" className="lg:mr-5 w-full  btn z-10 mt-2 text-gray-900 bg-white   duration-100 hover:text-[#ff535b] border-[#ff535b] focus:ring-4 focus:outline-none focus:ring-[#ff535b] font-medium rounded-3xl text-sm px-5 py-2.5 text-center justify-center inline-flex items-center ">
    Connect with Me <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
   <path
     stroke="currentColor"
@@ -114,6 +116,18 @@ const Titlee = () => {
   />
 </svg>
 </a>
+<Link to="/about"  rel="noopener noreferrer" className="  justify-center w-full   btn z-10 mt-3 text-gray-900 bg-[#ff535b]   duration-100 hover:text-white border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-3xl text-sm px-5 py-2.5 text-center inline-flex items-center ">
+   About <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+  <path
+    stroke="currentColor"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    strokeWidth="2"
+    d="M1 5h12m0 0L9 1m4 4L9 9"
+  />
+</svg>
+</Link>
+        </div>
       </div>
     </>
   );
