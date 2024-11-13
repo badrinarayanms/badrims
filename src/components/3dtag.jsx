@@ -101,7 +101,7 @@ function Band({ maxSpeed = 50, minSpeed = 10, windowWidth }) {
         : windowWidth >= 1440
         ? [-3, 4, 0]
         : [0, 5, 0];
-
+        const isMobileOrTablet = window.innerWidth <= 768;
     return (
         <>
             <group position={pos}>
@@ -123,7 +123,7 @@ function Band({ maxSpeed = 50, minSpeed = 10, windowWidth }) {
                         onPointerOver={() => hover(true)}
                         onPointerOut={() => hover(false)}
                         onPointerUp={(e) => (e.target.releasePointerCapture(e.pointerId), drag(false))}
-                        onPointerDown={(e) => (e.target.setPointerCapture(e.pointerId), drag(new THREE.Vector3().copy(e.point).sub(vec.copy(card.current.translation()))))}
+                        onPointerDown={(e) => (e.target.setPointerCapture(e.pointerId), drag(isMobileOrTablet?false:new THREE.Vector3().copy(e.point).sub(vec.copy(card.current.translation()))))}
                     >
                         <mesh geometry={nodes.card.geometry}>
                             <meshPhysicalMaterial map={materials.base.map} map-anisotropy={16} clearcoat={1} clearcoatRoughness={0.15} roughness={0.3} metalness={0.5} />
