@@ -65,7 +65,7 @@ const Titlee = () => {
   return (
     <>
       <div>
-      <h1  className="pb-2  md:p-10 text-[#FF535B]   mt-[57vh] md:mt-0  font-coolvetica">
+      <h1  className="pb-2  md:p-10 text-[#FF535B]   mt-[59vh] md:mt-0  font-coolvetica">
         <span className="flex text-[2.5rem] md:text-[6em] lg:text-[7em] xl:text-[8em] min-[1440px]:text-[8em] 2xl:text-[12em] min-[2560px]:text-[18em] w-full justify-center items-center">
           {nameLetters.map(({ letter, key }) => (
             
@@ -103,9 +103,9 @@ const Titlee = () => {
         </h1>
         
         </div>
-        <div className='flex flex-col w-[70%] md:w-[25%] items-center lg:flex-row '>
         
-<a href="https://linktr.ee/badrinarayanms"  target="_blank" rel="noopener noreferrer" className="lg:mr-5 w-full  btn z-10 mt-2 text-gray-900 bg-white   duration-100 hover:text-[#ff535b] border-[#ff535b] focus:ring-4 focus:outline-none focus:ring-[#ff535b] font-medium rounded-3xl text-sm px-5 py-2.5 text-center justify-center inline-flex items-center ">
+        
+<a href="https://linktr.ee/badrinarayanms"  target="_blank" rel="noopener noreferrer" className="lg:mr-5  btn z-10 mt-2 text-gray-900 bg-white   duration-100 hover:text-[#ff535b] border-[#ff535b] focus:ring-4 focus:outline-none focus:ring-[#ff535b] font-medium rounded-3xl text-sm px-5 py-2.5 text-center justify-center inline-flex items-center ">
    Connect with Me <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
   <path
     stroke="currentColor"
@@ -116,18 +116,8 @@ const Titlee = () => {
   />
 </svg>
 </a>
-<Link to="/about"  rel="noopener noreferrer" className="  justify-center w-full   btn z-10 mt-3 text-gray-900 bg-[#ff535b]   duration-100 hover:text-white border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-3xl text-sm px-5 py-2.5 text-center inline-flex items-center ">
-   About <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-  <path
-    stroke="currentColor"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-    strokeWidth="2"
-    d="M1 5h12m0 0L9 1m4 4L9 9"
-  />
-</svg>
-</Link>
-        </div>
+
+        
       </div>
     </>
   );
