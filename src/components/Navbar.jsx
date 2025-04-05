@@ -77,6 +77,9 @@ const Navbar = () => {
           <a href="/about" className="menu-item">
             <h1 className="text-white text-right font-coolvetica text-5xl lg:text-8xl mb-10 hover:text-[#ff5353b]">About</h1>
           </a>
+          <a href="/projects" className="menu-item">
+            <h1 className="text-white text-right font-coolvetica text-5xl lg:text-8xl mb-10 hover:text-[#ff5353b]">Projects</h1>
+          </a>
           
           
         </div>
