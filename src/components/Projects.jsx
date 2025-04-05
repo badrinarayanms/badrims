@@ -60,7 +60,7 @@ const projectsData = [
     techStack: ["Next.js", "Framer Motion", "React Bits", "Aceternity UI", "Tailwind CSS", "Supabase"],
     githubUrl: "",
     liveUrl: "",
-    note: "Repository private and website offline after event conclusion"
+    note: "This repository is private, and the website will be taken offline after the event concludes."
   },
   {
     id: 3,
@@ -76,7 +76,8 @@ const projectsData = [
     description: "Dynamic portfolio showcasing skills, projects, and achievements. Features smooth animations and interactive elements for engaging user experience.",
     techStack: ["React", "Tailwind CSS", "GSAP", "Framer Motion"],
     githubUrl: "https://github.com/badrinarayanms/badrims",
-    liveUrl: "https://badrims.pages.dev/"
+    liveUrl: "https://badrims.pages.dev/",
+    note:"You are currently viewing the same portfolio"
   },
   {
     id: 5,
@@ -92,6 +93,7 @@ const projectsData = [
     description: "Collection of design projects including website UIs, event posters, and promotional materials. Focused on visual communication and user experience principles.",
     techStack: ["Figma", "Adobe Photoshop", "Illustrator"],
     liveUrl: "https://www.figma.com/design/oVx9ZmJiQRoZnRiYfez9Vj/geek?node-id=0-1&t=GkmOHnmNJG99bdPa-1",
+    note:"A glimpse into some of my design explorations and creative works",
     isDesign: true
   }
 ];
@@ -171,8 +173,9 @@ const ProjectCard = ({ project, index }) => {
               {project.isDesign ? "Figma Link" :"Live Demo"}
             </a>
           </Button>}
-          {project.note && <p className="text-sm text-gray-400">{project.note}</p>}
         </div>
+        {project.note && <p className="text-sm text-gray-400 mt-5">{project.note}</p>}
+
       </Card>
     </div>
   );
