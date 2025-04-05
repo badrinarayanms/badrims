@@ -55,7 +55,7 @@ const projectsData = [
   },
   {
     id: 2,
-    name: "TEXUS 25 Festival Website",
+    name: "TEXUS 25 Website",
     description: "Official website for TEXUS 25, a national level fest organized by SRM University of Science and Technology. Featured event details, schedules, and registration systems.",
     techStack: ["Next.js", "Framer Motion", "React Bits", "Aceternity UI", "Tailwind CSS", "Supabase"],
     githubUrl: "",
