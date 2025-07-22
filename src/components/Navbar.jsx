@@ -93,7 +93,7 @@ const Navbar = () => {
             <h1 className="text-[#FF535B] text-right font-coolvetica text-lg lg:text-2xl mb-10 hover:text-[#ff5353b]">Projects</h1>
           </a>
         </div> */}
-        {/* <div className="w-10 h-10 mt-5 flex items-center justify-center">
+        <div className="w-10 h-10 mt-5 flex items-center justify-center">
           <Hamburger
             color="#FF535B"
             direction="right"
@@ -113,7 +113,7 @@ const Navbar = () => {
           <a href="#projects" className="menu-item" onClick={handleScroll('projects')}>
             <h1 className="text-white text-right font-coolvetica text-5xl lg:text-8xl mb-10 hover:text-[#ff5353b]">Projects</h1>
           </a>
-        </div> */}
+        </div>
       </div>
     </div>
   );
