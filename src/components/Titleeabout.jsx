@@ -561,7 +561,7 @@ const Titlee = () => {
     <div className="abtbtm flex mt-5 space-x-4">
      
       <a
-        href="https://www.linkedin.com/in/badri-narayan-m-s-60bab42a2/"
+        href="https://www.linkedin.com/in/badrinarayanms"
         target="_blank"
         rel="noopener noreferrer"
         className=" text-white hover:text-[#ff535b]"
