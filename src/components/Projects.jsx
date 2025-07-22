@@ -46,27 +46,75 @@ const Button = ({ className, size = "default", asChild = false, children, ...pro
 // Project Data
 const projectsData = [
   {
-    id: 1,
-    name: "GeekCoders Community Website",
-    description: "A modern and responsive community website built using Next.js and Tailwind CSS, providing insights into events, resources, and collaborations with the GeekCoders community.",
-    techStack: ["Next.js", "Tailwind CSS", "React", "Framer Motion"],
-    githubUrl: "https://github.com/geekcoders-community/GeekCoders.Community",
-    liveUrl: "https://geekcoders-community.pages.dev/"
-  },
-  {
+  id: 7,
+  name: "Invoiceer Backend",
+  description: "A Spring Boot application for managing invoices and products. Features PDF invoice generation and email delivery using Gmail SMTP, with PostgreSQL as the database. Dockerized and deployed on Render.",
+  techStack: ["Spring Boot", "Spring Data JPA", "Spring Mail", "PostgreSQL", "Docker", "iText 7"],
+  githubUrl: "https://github.com/badrinarayanms/invoiceer-backend",
+  liveUrl: "https://invoiceer-o31i.onrender.com"
+},
+{
+  id: 8,
+  name: "Invoiceer Dashboard",
+  description: "A responsive invoice management dashboard built with Next.js, Tailwind CSS, and React. Allows users to manage products, create invoices, and track business metrics. Integrates with the Invoiceer Backend API.",
+  techStack: ["Next.js", "React", "Tailwind CSS","radix-ui"],
+  githubUrl: "https://github.com/badrinarayanms/invoiceer-frontend",
+  liveUrl: "https://invoiceer-frontend.vercel.app"
+},{
     id: 2,
     name: "TEXUS 25 Website",
     description: "Official website for TEXUS 25, a national level fest organized by SRM University of Science and Technology. Featured event details, schedules, and registration systems.",
     techStack: ["Next.js", "Framer Motion", "React Bits", "Aceternity UI", "Tailwind CSS", "Supabase"],
-    githubUrl: "",
+    githubUrl: "https://github.com/badrinarayanms/Texus25",
     liveUrl: "",
     note: "This repository is private, and the website will be taken offline after the event concludes."
   },
   {
+  id: 8,
+  name: "Spring Security JWT Auth",
+  description: "A secure authentication system built with Spring Boot using JWT tokens. Supports user registration and login APIs with protected routes. Ideal for securing REST APIs.",
+  techStack: ["Spring Boot", "Spring Security", "JWT", "PostgreSQL"],
+  githubUrl: "https://github.com/badrinarayanms/spring-security-jwt-auth",
+  liveUrl: ""
+},{
+  id: 9,
+  name: "Spring JDBC PostgreSQL Demo",
+  description: "A simple demo using Spring Boot with JDBC Template to interact with a PostgreSQL database. Demonstrates adding and retrieving students without controllers, ideal for backend JDBC practice.",
+  techStack: ["Spring Boot", "JDBC Template", "PostgreSQL"],
+  githubUrl: "https://github.com/badrinarayanms/springJDBC-postgre",
+  liveUrl: ""
+},
+{
+  id: 10,
+  name: "Spring JPA Demo App",
+  description: "A minimal Spring Boot demo using Spring Data JPA for basic CRUD operations on student records. Uses PostgreSQL for persistence and focuses on JPA repository usage.",
+  techStack: ["Spring Boot", "Spring Data JPA", "PostgreSQL"],
+  githubUrl: "https://github.com/badrinarayanms/Spring-JPA-demo",
+  liveUrl: ""
+}
+,{
+  id: 11,
+  name: "Hibernate Demo",
+  description: "A standalone Java application using Hibernate ORM for database operations like save, update, delete, and fetch. Uses PostgreSQL as the backend and iText config for ORM mappings.",
+  techStack: ["Hibernate", "Java", "PostgreSQL"],
+  githubUrl: "https://github.com/badrinarayanms/hibernate-demo",
+  liveUrl: ""
+}
+,
+  {
+    id: 1,
+    name: "GeekCoders Community Website",
+    description: "A modern and responsive community website built using Next.js and Tailwind CSS, providing insights into events, resources, and collaborations with the GeekCoders community.",
+    techStack: ["Next.js", "Tailwind CSS", "React"],
+    githubUrl: "https://github.com/geekcoders-community/GeekCoders.Community",
+    liveUrl: "https://geekcoders-community.pages.dev/"
+  },
+  
+  {
     id: 3,
     name: "Tech Hacks Hackathon Registration",
     description: "Landing page for an intercollege hackathon organized under TEXUS 25. Featured responsive design with animated sections for event information and registration.",
-    techStack: ["Next.js", "Tailwind CSS", "Framer Motion", "React Bits"],
+    techStack: ["Next.js", "Tailwind CSS", "React Bits"],
     githubUrl: "https://github.com/badrinarayanms/TechHacks",
     liveUrl: "https://techhacks.vercel.app/"
   },
@@ -102,6 +150,10 @@ const projectsData = [
 const HeaderSection = () => {
   const headerRef = useRef(null);
   const underlineRef = useRef(null);
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'auto' }); // or 'smooth' if you want animation
+  }, []);
 
   useGSAP(() => {
     gsap.from(headerRef.current, {
@@ -173,7 +225,7 @@ const ProjectCard = ({ project, index }) => {
               {project.isDesign ? "Figma Link" :"Live Demo"}
             </a>
           </Button>}
-        </div>
+        </div>  
         {project.note && <p className="text-sm text-gray-400 mt-5">{project.note}</p>}
 
       </Card>

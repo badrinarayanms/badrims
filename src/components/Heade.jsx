@@ -7,7 +7,7 @@ const Heade = () => {
 
   return (
     <>
-      <section className="overflow-hidden absolute top-0 flex justify-between" style={{ width: '100%', height: '100%', margin: 0, padding: 0 }}>
+      <section className=" overflow-hidden absolute top-0 flex justify-between" style={{ width: '100%', height: '100%', margin: 0, padding: 0 }}>
         {showDiv && (
           <div
             className={`absolute z-10 h-full w-full ${cut ? "top-[1000px]" : "top-0"}`}

@@ -3,10 +3,14 @@ import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { AiFillHtml5 } from 'react-icons/ai';
-import { DiCss3, DiJavascript1 } from 'react-icons/di';
-import { FaReact, FaJava } from 'react-icons/fa';
-import { SiPython, SiCplusplus } from 'react-icons/si';
+// import { AiFillHtml5 } from 'react-icons/ai';
+// import { DiCss3, DiJavascript1 } from 'react-icons/di';
+// import { FaReact, FaJava } from 'react-icons/fa';
+// import { SiPython, SiCplusplus } from 'react-icons/si';
+import { FaJava, FaReact } from "react-icons/fa";
+import { SiPostgresql, SiSpringboot, SiNextdotjs, SiReact, SiReacthookform, SiPython, SiCplusplus } from "react-icons/si";
+import TopProjects from './TopProject';
+
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -302,169 +306,185 @@ const Titlee = () => {
 
   return (
     <>
-      <div className='w-full overflow-y-hidden overflow-hidden h-screen'>
-      <div className="flex flex-col w-full  items-center relative   h-44 md:h-64">
-        
-        <div className="w-screen md:mt-36 mt-24 ">
-            <div className="   overflow-hidden  -rotate-[8deg] md:-rotate-6  w-[120vw] -mx-4">
+      <div className='mt-0 hidden md:block md:mt-72 full overflow-y-hidden overflow-hidden h-screen'>
+        <div className="flex flex-col w-full  items-center relative   h-44 md:h-64">
+          {/* Animated headline rows */}
+          <div className="w-screen md:mt-36 mt-24 ">
+            <div className="overflow-hidden -rotate-[8deg] md:-rotate-6 w-[120vw] -mx-4">
               <div className="flex whitespace-nowrap sidec scrolling-container">
-              <p className="text-[#5B5555]  font-coolvetica  text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium flex justify-center items-center  md:word-spacing word-spacing-m scrolling-text-right">
-              WEB DEVELOPER</p>
-                 <p style={{
-                color:' #1d1d1d', 
-                WebkitTextStroke:  '2px #FF535B', 
-              }} className="font-coolvetica text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium flex justify-center items-center  md:word-spacing word-spacing-m scrolling-text-right mr-36">
-                 UI/UX DESIGNER</p>
-                   <p className="text-[#5B5555] font-coolvetica  text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium flex justify-center items-center  md:word-spacing word-spacing-m  scrolling-text-right  mr-12">
-                   WEB DEVELOPER</p>
-                   <p style={{
-                color:' #1d1d1d', 
-                WebkitTextStroke:  '2px #FF535B', 
-              }} className="font-coolvetica text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium flex justify-center  items-center  md:word-spacing word-spacing-m scrolling-text-right mr-4">
-                 UI/UX DESIGNER</p>
+                <p className="text-[#5B5555] font-coolvetica text-8xl md:text-[10rem] lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium flex justify-center items-center md:word-spacing word-spacing-m scrolling-text-right">
+                  WEB DEVELOPER
+                </p>
+                <p style={{
+                  color: ' #1d1d1d',
+                  WebkitTextStroke: '2px #FF535B',
+                }} className="font-coolvetica text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium flex justify-center items-center  md:word-spacing word-spacing-m scrolling-text-right mr-36">
+                  UI/UX DESIGNER
+                </p>
+                <p className="text-[#5B5555] font-coolvetica  text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium flex justify-center items-center  md:word-spacing word-spacing-m  scrolling-text-right  mr-12">
+                  WEB DEVELOPER
+                </p>
+                <p style={{
+                  color: ' #1d1d1d',
+                  WebkitTextStroke: '2px #FF535B',
+                }} className="font-coolvetica text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium flex justify-center  items-center  md:word-spacing word-spacing-m scrolling-text-right mr-4">
+                  UI/UX DESIGNER
+                </p>
               </div>
             </div>
-        </div>
-        <div className="w-screen">
+          </div>
+          <div className="w-screen">
             <div className=" py-2   overflow-hidden  -rotate-[8deg] md:-rotate-6  -my-2  w-[120vw] -mx-4 ">
               <div className="flex whitespace-nowrap sidec scrolling-container">
-              <p style={{
-                color:' #1d1d1d', 
-                WebkitTextStroke:  '2px #5B5555', 
-              }} className="font-coolvetica flex justify-center items-center text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium  md:word-spacing word-spacing-m scrolling-text">
-                WEB DEVELOPER</p>
                 <p style={{
-                color:' #1d1d1d', 
-                WebkitTextStroke:  '2px #5B5555', 
-              }} className="text-[#5B5555] font-coolvetica flex justify-center items-center  text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium md:word-spacing word-spacing-m mr-16  scrolling-text">
-                   UI/UX DESIGNER</p>
-                 <p style={{
-                color:' #1d1d1d', 
-                WebkitTextStroke:  '2px #5B5555', 
-              }} className="font-coolvetica flex justify-center items-center text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium  md:word-spacing word-spacing-m scrolling-text ">
-                   WEB DEVELOPER</p>
-                   <p style={{
-                color:' #1d1d1d', 
-                WebkitTextStroke:  '2px #5B5555', 
-              }} className="text-[#5B5555] font-coolvetica flex justify-center items-center  text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium md:word-spacing word-spacing-m scrolling-text">
-                   UI/UX DESIGNER</p>
+                  color: ' #1d1d1d',
+                  WebkitTextStroke: '2px #5B5555',
+                }} className="font-coolvetica flex justify-center items-center text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium  md:word-spacing word-spacing-m scrolling-text">
+                  WEB DEVELOPER</p>
+                <p style={{
+                  color: ' #1d1d1d',
+                  WebkitTextStroke: '2px #5B5555',
+                }} className="text-[#5B5555] font-coolvetica flex justify-center items-center  text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium md:word-spacing word-spacing-m mr-16  scrolling-text">
+                  UI/UX DESIGNER</p>
+                <p style={{
+                  color: ' #1d1d1d',
+                  WebkitTextStroke: '2px #5B5555',
+                }} className="font-coolvetica flex justify-center items-center text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium  md:word-spacing word-spacing-m scrolling-text ">
+                  WEB DEVELOPER</p>
+                <p style={{
+                  color: ' #1d1d1d',
+                  WebkitTextStroke: '2px #5B5555',
+                }} className="text-[#5B5555] font-coolvetica flex justify-center items-center  text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium md:word-spacing word-spacing-m scrolling-text">
+                  UI/UX DESIGNER</p>
               </div>
-              
             </div>
-        </div>
-        <div className="w-screen ">
+          </div>
+          <div className="w-screen ">
             <div className="   overflow-hidden  -rotate-[8deg] md:-rotate-6    w-[120vw] -mx-4">
               <div className="flex whitespace-nowrap sidec scrolling-container">
-              <p style={{
-                color:' #1d1d1d', 
-                WebkitTextStroke:  '2px #5B5555', 
-              }} className="font-coolvetica text-8xl md:text-[10rem]   lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium flex justify-center items-center  md:word-spacing word-spacing-m scrolling-text-right">
-              WEB DEVELOPER</p>
-                 <p className="text-[#FF535B] font-coolvetica text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium flex justify-center items-center  md:word-spacing word-spacing-m scrolling-text-right mr-36">
-                 UI/UX DESIGNER</p>
-                   <p style={{
-                color:' #1d1d1d', 
-                WebkitTextStroke:  '2px #FF535B', 
-              }}  className="font-coolvetica  text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium flex justify-center items-center  md:word-spacing word-spacing-m scrolling-text-right  mr-16">
-                   WEB DEVELOPER</p>
-                   <p className="text-[#FF535B] font-coolvetica text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium flex justify-center items-center  md:word-spacing word-spacing-m scrolling-text-right">
-                 UI/UX DESIGNER</p>
+                <p style={{
+                  color: ' #1d1d1d',
+                  WebkitTextStroke: '2px #5B5555',
+                }} className="font-coolvetica text-8xl md:text-[10rem]   lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium flex justify-center items-center  md:word-spacing word-spacing-m scrolling-text-right">
+                  WEB DEVELOPER</p>
+                <p className="text-[#FF535B] font-coolvetica text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium flex justify-center items-center  md:word-spacing word-spacing-m scrolling-text-right mr-36">
+                  UI/UX DESIGNER</p>
+                <p style={{
+                  color: ' #1d1d1d',
+                  WebkitTextStroke: '2px #FF535B',
+                }} className="font-coolvetica  text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium flex justify-center items-center  md:word-spacing word-spacing-m scrolling-text-right  mr-16">
+                  WEB DEVELOPER</p>
+                <p className="text-[#FF535B] font-coolvetica text-8xl md:text-[10rem]  lg:text-[9rem] min-[600px]:text-[8rem] xxl:text-[18rem] font-medium flex justify-center items-center  md:word-spacing word-spacing-m scrolling-text-right">
+                  UI/UX DESIGNER</p>
               </div>
             </div>
-            <div className='w-full sidec flex items-center justify-center  lg:justify-end p-20 mt-1rem min-[600px]:mt-[4rem] min-[800px]:mt-[10rem] md:mt-[1rem] min-[800px]:justify-center xl:-mt-32 xxl:mt-0'><p className="bg-[#5B5555] bg-opacity-15 px-4 h-14 py-0  rounded-full flex items-center justify-end overflow-hidden text-xl text-justify text-[#ff535b] md:text-2xl font-coolvetica">
-        Scroll down <svg className="rotate-90  w-3 h-6 lg:w-5 lg:h-10 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-  <path
-    stroke="currentColor"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-    strokeWidth="2"
-    d="M1 5h12m0 0L9 1m4 4L9 9"
-  />
-</svg></p></div>
+          </div>
         </div>
-        
-        
       </div>
-      
 
-      
-      </div>
-      <div className="flex flex-col justify-center items-center min-[600px]:-mt-88 md:-mt-56  min-[800px]:-mt-80 -mt-56  xl:-mt-6 xxl:-mt-56 lg:justify-center lg:mt-16 lg:items-start px-6 md:px-20   ">
-        
+      {/* About Section */}
+      <div className="flex flex-col justify-center items-center  mt-20  md:mt-0   xl:-mt-56 xxl:-mt-56 lg:justify-center lg:mt-16 lg:items-start px-6 md:px-16   ">
         <div className="abt w-full flex flex-col overflow-hidden pb-3 gap-2">
-        <div className='overflow-hidden'><h1 className="  w-full overflow-hidden text-5xl text-justify text-[#ff535b] md:text-4xl lg:text-7xl xl:text-8xl 2xl:text-8xl font-coolvetica">
-        Who am i ?</h1></div>
-        <div className='overflow-hidden'><h1 className=" text-sm overflow-hidden sm:text-5xl text-[#ffff] text-justify md:text-2xl lg:text-3xl xxl:text-7xl xl:text-4xl 2xl:text-3xl font-coolvetica">
-          Hello! I'm Badri ms , a passionate developer with a strong foundation in computer science and a flair for creating efficient, user-friendly applications.</h1></div>
-
-          <div className='overflow-hidden'><h1 className="text-sm overflow-hidden sm:text-5xl text-[#ffff] md:text-2xl lg:text-3xl xxl:text-7xl xl:text-4xl 2xl:text-3xl font-coolvetica">Currently pursuing my B.Tech in Computer Science and Engineering at SRM Institute of Science and Technology, I'm driven by the endless possibilities that technology offers.</h1></div>
-          
+          <div className='overflow-hidden'>
+            <h1 className="w-full overflow-hidden text-5xl text-justify text-[#ff535b] md:text-4xl lg:text-7xl xl:text-8xl 2xl:text-8xl font-coolvetica">
+              Who Am I ?
+            </h1>
+          </div>
+          <div className='overflow-hidden'>
+            <h1 className="text-sm overflow-hidden sm:text-5xl text-[#ffff] text-justify md:text-2xl lg:text-3xl xxl:text-7xl xl:text-4xl 2xl:text-3xl font-coolvetica">
+              I'm Badri Narayan, a full-stack developer with a strong focus on building scalable web applications using Java, Spring Boot, and React. I have hands-on experience in developing robust RESTful APIs and integrating frontend and backend systems seamlessly. My interests lie in both web and mobile app development, and I'm currently exploring cross-platform technologies to expand my skillset. I’m passionate about clean code, problem-solving, and staying up to date with the latest trends in software development.
+            </h1>
+          </div>
         </div>
-        
       </div>
 
-
-      <div className="flex w-full flex-col justify-center mt-0 md:mr-20 md:mt-10 lg:justify-center lg:mt-16 items-start px-6 md:px-20 xl:mr-36 xl:justify-center xxl:mt-[200px]">
-        
+      {/* Tech Stack Section */}
+      <div className="flex w-full flex-col justify-center mt-0 md:mr-20 md:mt-10 lg:justify-center lg:mt-16 items-start px-6 md:px-16 xl:mr-36 xl:justify-center xxl:mt-[200px]">
         <div className="skill flex flex-col  overflow-hidden pb-3 gap-4">
-        <div className='overflow-hidden flex '><h1 className=" text-5xl  overflow-hidden sm:text-5xl text-[#ff535b] md:text-4xl lg:text-7xl xl:text-8xl 2xl:text-8xl font-coolvetica">
-        Tech Stack</h1></div>
-       
-          
+          <div className='overflow-hidden flex '>
+            <h1 className=" text-5xl  overflow-hidden sm:text-5xl text-[#ff535b] md:text-4xl lg:text-7xl xl:text-8xl 2xl:text-8xl font-coolvetica">
+              Tech Stack
+            </h1>
+          </div>
         </div>
-        <div className="skillset w-full flex flex-col overflow-hidden pb-3 gap-4"> 
+        <div className="skillset w-full flex flex-col overflow-hidden pb-3 gap-4">
+         
   <div className='overflow-hidden'>
-    <h1 className=" text-3xl overflow-hidden sm:text-5xl text-[#ffff] md:text-4xl lg:text-5xl xl:text-8xl 2xl:text-8xl font-coolvetica">
-      <AiFillHtml5 className="inline mr-2" /> html
-    </h1>
-    <div className='line w-full mt-4 h-[0.1rem] bg-white'></div>
-  </div>
-  <div className='overflow-hidden'>
-    <h1 className=" text-3xl overflow-hidden sm:text-5xl text-[#ffff] md:text-4xl lg:text-5xl xl:text-8xl 2xl:text-8xl font-coolvetica">
-      <DiCss3 className="inline mr-2" /> css
-    </h1>
-    <div className='line w-full mt-4 h-[0.1rem] bg-white'></div>
-  </div>
-  <div className='overflow-hidden'>
-    <h1 className=" text-3xl overflow-hidden sm:text-5xl text-[#ffff] md:text-4xl lg:text-5xl xl:text-8xl 2xl:text-8xl font-coolvetica">
-      <DiJavascript1 className="inline mr-2" /> JavaScript
-    </h1>
-    <div className='line w-full mt-4 h-[0.1rem] bg-white'></div>
-  </div>
-  <div className='overflow-hidden'>
-    <h1 className=" text-3xl overflow-hidden sm:text-5xl text-[#ffff] md:text-4xl lg:text-5xl xl:text-8xl 2xl:text-8xl font-coolvetica">
-      <FaReact className="inline mr-2" /> React JS
-    </h1>
-    <div className='line w-full mt-4 h-[0.1rem] bg-white'></div>
-  </div>
-  <div className='overflow-hidden'>
-    <h1 className=" text-3xl overflow-hidden sm:text-5xl text-[#ffff] md:text-4xl lg:text-5xl xl:text-8xl 2xl:text-8xl font-coolvetica">
-      <FaJava className="inline mr-2" /> Java
-    </h1>
-    <div className='line w-full mt-4 h-[0.1rem] bg-white'></div>
-  </div>
-  <div className='overflow-hidden'>
-    <h1 className=" text-3xl overflow-hidden sm:text-5xl text-[#ffff] md:text-4xl lg:text-5xl xl:text-8xl 2xl:text-8xl font-coolvetica">
-      <SiPython className="inline mr-2" /> Python
-    </h1>
-    <div className='line w-full mt-4 h-[0.1rem] bg-white'></div>
-  </div>
-  <div className='overflow-hidden'>
-    <h1 className=" text-3xl overflow-hidden sm:text-5xl text-[#ffff] md:text-4xl lg:text-5xl xl:text-8xl 2xl:text-8xl font-coolvetica">
-      <SiCplusplus className="inline mr-2" /> C C++
-    </h1>
-    <div className='line w-full mt-4 h-[0.1rem] bg-white'></div>
-  </div>
-  <div className='overflow-hidden'>
-    <h1 className=" text-3xl overflow-hidden sm:text-5xl text-[#ffff] md:text-4xl lg:text-5xl xl:text-8xl 2xl:text-8xl font-coolvetica">
-      Open to learn new tech
-    </h1>
-    <div className='line w-full mt-4 h-[0.1rem] mb-10 md:mb-36 bg-white'></div>
-  </div>
+  <h1 className="text-3xl overflow-hidden sm:text-5xl text-white md:text-4xl lg:text-5xl xl:text-8xl 2xl:text-8xl font-coolvetica">
+    <FaJava className="inline mr-2" /> Java
+  </h1>
+  <div className='line w-full mt-4 h-[0.1rem] bg-white'></div>
+</div>
+
+<div className='overflow-hidden'>
+  <h1 className="text-3xl overflow-hidden sm:text-5xl text-white md:text-4xl lg:text-5xl xl:text-8xl 2xl:text-8xl font-coolvetica">
+    <SiSpringboot className="inline mr-2" /> Spring Boot
+  </h1>
+  <div className='line w-full mt-4 h-[0.1rem] bg-white'></div>
+</div>
+
+<div className='overflow-hidden'>
+  <h1 className="text-3xl overflow-hidden sm:text-5xl text-white md:text-4xl lg:text-5xl xl:text-8xl 2xl:text-8xl font-coolvetica">
+    <SiPostgresql className="inline mr-2" /> PostgreSQL
+  </h1>
+  <div className='line w-full mt-4 h-[0.1rem] bg-white'></div>
+</div>
+
+<div className='overflow-hidden'>
+  <h1 className="text-3xl overflow-hidden sm:text-5xl text-white md:text-4xl lg:text-5xl xl:text-8xl 2xl:text-8xl font-coolvetica">
+    <FaReact className="inline mr-2" /> React JS
+  </h1>
+  <div className='line w-full mt-4 h-[0.1rem] bg-white'></div>
+</div>
+
+<div className='overflow-hidden'>
+  <h1 className="text-3xl overflow-hidden sm:text-5xl text-white md:text-4xl lg:text-5xl xl:text-8xl 2xl:text-8xl font-coolvetica">
+    <SiNextdotjs className="inline mr-2" /> Next JS
+  </h1>
+  <div className='line w-full mt-4 h-[0.1rem] bg-white'></div>
+</div>
+
+<div className='overflow-hidden'>
+  <h1 className="text-3xl overflow-hidden sm:text-5xl text-white md:text-4xl lg:text-5xl xl:text-8xl 2xl:text-8xl font-coolvetica">
+    <SiReact className="inline mr-2" /> React Native
+  </h1>
+  <div className='line w-full mt-4 h-[0.1rem] bg-white'></div>
+</div>
+
+<div className='overflow-hidden'>
+  <h1 className="text-3xl overflow-hidden sm:text-5xl text-white md:text-4xl lg:text-5xl xl:text-8xl 2xl:text-8xl font-coolvetica">
+    <SiPython className="inline mr-2" /> Python
+  </h1>
+  <div className='line w-full mt-4 h-[0.1rem] bg-white'></div>
+</div>
+
+<div className='overflow-hidden'>
+  <h1 className="text-3xl overflow-hidden sm:text-5xl text-white md:text-4xl lg:text-5xl xl:text-8xl 2xl:text-8xl font-coolvetica">
+    <SiCplusplus className="inline mr-2" /> C / C++
+  </h1>
+  <div className='line w-full mt-4 h-[0.1rem] bg-white'></div>
+</div>
+
+<div className='overflow-hidden'>
+  <h1 className="text-3xl overflow-hidden sm:text-5xl text-white md:text-4xl lg:text-5xl xl:text-8xl 2xl:text-8xl font-coolvetica">
+    Open to learn new tech
+  </h1>
+  <div className='line w-full mt-4 h-[0.1rem] mb-10 md:mb-36 bg-white'></div>
+</div>
+
 </div>
 
         
       </div>
+{/* top ptojevcts */}
+      
+      <TopProjects/>
+      
+  {/* footer */}
+
+
+
+
 
       <div className=' abtbtm w-full flex  py-2 items-center overflow-hidden   bg-[#ff535b]'>
   {/* <a className="text-3xl flex justify-between items-center   w-full   text-[#1d1d1d] md:text-5xl  font-coolvetica whitespace-nowrap">
@@ -571,7 +591,10 @@ const Titlee = () => {
         <h1 className="btn text-sm text-center overflow-hidden  xxl:text-5xl text-[#ffff] md:text-2xl lg:text-xl xl:text-2xl 2xl:text-xl font-coolvetica">
         Designed with ❤️ by Badri M S</h1>
         </div>
-</div>    </>
+</div>  
+      
+      
+      </>
   );
 };
 
