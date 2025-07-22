@@ -3,6 +3,8 @@ import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+import { SiJavascript } from "react-icons/si";
 // import { AiFillHtml5 } from 'react-icons/ai';
 // import { DiCss3, DiJavascript1 } from 'react-icons/di';
 // import { FaReact, FaJava } from 'react-icons/fa';
@@ -454,6 +456,12 @@ const Titlee = () => {
 <div className='overflow-hidden'>
   <h1 className="text-3xl overflow-hidden sm:text-5xl text-white md:text-4xl lg:text-5xl xl:text-8xl 2xl:text-8xl font-coolvetica">
     <SiPython className="inline mr-2" /> Python
+  </h1>
+  <div className='line w-full mt-4 h-[0.1rem] bg-white'></div>
+</div>
+<div className='overflow-hidden'>
+  <h1 className="text-3xl overflow-hidden sm:text-5xl text-white md:text-4xl lg:text-5xl xl:text-8xl 2xl:text-8xl font-coolvetica">
+    <SiJavascript className="inline mr-2" /> JavaScript
   </h1>
   <div className='line w-full mt-4 h-[0.1rem] bg-white'></div>
 </div>
